@@ -1,0 +1,128 @@
+@font-face {
+  font-family: AlexBrush;
+  src: url('../images/AlexBrush-Regular.ttf') format('truetype');
+}
+
+.crossed {
+  text-decoration: line-through solid black;
+}
+
+.card-details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  padding: 0 0 2rem;
+}
+
+.details-title {
+  margin: 35px 0 35px 15px;
+  text-align: center;
+  width: 95%;
+}
+
+.details-title h1 {
+  color: rgb(180, 33, 33);
+  font-family: AlexBrush , sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  text-shadow: 2px 2px 1px white;
+}
+
+.details-title p {
+  font-size: 20px;
+  position: relative;
+  top: -10px;
+}
+
+.section-one {
+  max-width: 100%;
+  position: relative;
+  top: -65px;
+}
+
+.tape {
+  filter: contrast(250%) drop-shadow(1px 1px 1px rgb(192, 158, 108));
+  height: 85px;
+  left: 5px;
+  margin-right: 300px;
+  position: relative;
+  top: 70px;
+  transform: rotate(95deg);
+  z-index: 2;
+}
+
+.mainPic {
+  background: rgb(255, 254, 249);
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2) , 0 0 15px rgba(0, 0, 0, 0.2);
+  float: left;
+  height: 210px;
+  margin: 0 15px 2px 30px;
+  padding: 15px;
+  padding-bottom: 45px;
+  transform: rotate(-2deg);
+  z-index: 1;
+}
+
+.instructions {
+  font-size: 17px;
+  margin-left: 16%;
+  margin-right: 1%;
+  text-align: justify;
+  width: 73%;
+}
+
+.section-two {
+  max-width: 100%;
+  position: relative;
+  top: -65px;
+}
+
+.bulb-icon {
+  margin-bottom: 15px;
+  margin-left: 230px;
+  transform: rotate(20deg);
+}
+
+.ingredients-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  list-style: inside decimal;
+  margin-left: 8%;
+  text-align: start;
+  width: 80%;
+}
+
+.progress-checkbox {
+  accent-color: #af1111;
+  cursor: pointer;
+  height: 1em;
+  margin-right: 8px;
+  position: relative;
+  top: -5px;
+  vertical-align: middle;
+  width: 1em;
+}
+
+.section-three {
+  margin-right: 20px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.video-border {
+  bottom: 250px;
+  filter: sepia(100%);
+  height: 280px;
+  margin-left: 23px;
+  position: relative;
+  z-index: 0;
+}
+
+.laptop {
+  bottom: 255px;
+  left: -95px;
+  position: relative;
+  transform: rotateY(180deg);
+}

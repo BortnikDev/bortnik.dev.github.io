@@ -1,0 +1,33 @@
+.footer-container {
+  background-color: #360101;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.footer-icon {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  padding: 6px;
+}
+
+.footer-label {
+  display: flex;
+  justify-content: center;
+  padding: 1px 40px;
+}
+
+.footer-text {
+  font-family: AlexBrush , sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 3px;
+}

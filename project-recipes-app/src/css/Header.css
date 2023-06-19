@@ -1,0 +1,126 @@
+:root {
+
+  --backgroundColor: #e8e8e8;
+
+  /* --titleColor: #f60404; */
+
+}
+
+header {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.65);
+  box-shadow: 2px 2px rgb(164, 164, 164, 0.4);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+  width: 100%;
+}
+
+.header__title {
+  align-items: center;
+  border-radius: 50%;
+  color: darkred;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  width: 170px;
+}
+
+.header__title img {
+  height: 35px;
+  margin-right: 2px;
+  position: relative;
+  top: 7px;
+}
+
+.title_header {
+  display: flex;
+  font-size: 30px;
+  position: relative;
+  top: 3px;
+}
+
+.title_header h1 {
+  color: #a00;
+  font-family: AlexBrush , sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 1px 2px 2px white;
+  transform: rotate(-2deg);
+}
+
+.subtitle_header {
+  font-family: AlexBrush , sans-serif;
+  font-size: 20px;
+  left: 117px;
+  position: absolute;
+  top: 14.5px;
+  transform: rotate(-3deg);
+}
+
+.header__icons {
+  align-items: center;
+  display: flex;
+}
+
+.header__button {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.page__title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.page__title h1 {
+  color: #a00;
+  font-family: AlexBrush , sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  margin-right: 15px;
+  text-shadow: 2px 2px 1px rgb(255, 249, 221);
+}
+
+.page__title img {
+  filter: drop-shadow(2px 2px 1px white);
+  width: 60px;
+}
+
+.header__search {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.search__bar {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  width: 80%;
+}
+
+.checkbox__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button__search {
+  background-color: #b50404;
+  color: var(--backgroundColor);
+}
+
+.input__search {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(188, 188, 188);
+  padding: 5px;
+}
+
+.input__search:focus {
+  outline: 2px solid rgb(188, 188, 188);
+}
+

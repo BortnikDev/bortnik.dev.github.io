@@ -1,0 +1,47 @@
+.details__page {
+  background-image: url('../css/images/backgroundDetails.jpg');
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 340px;
+  text-align: center;
+}
+
+.top-btns-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.push-pin {
+  left: 45px;
+  position: absolute;
+  top: 10px;
+}
+
+.carousel-container {
+  margin-left: 10px;
+  position: relative;
+  top: -230px;
+}
+
+.card-slider {
+  background: #f8f3e8;
+  bottom: 65px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2) , 0 0 40px rgba(0, 0, 0, 0.2);
+  height: 230px;
+  padding: 15px;
+  padding-bottom: 40px;
+}
+
+.start {
+  bottom: 0;
+  position: fixed;
+}

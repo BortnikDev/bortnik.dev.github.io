@@ -1,0 +1,11 @@
+.done__page {
+  background-image: url('../css/images/backgroundDetails.jpg');
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.done__page h1:nth-child( 1 ) {
+  backdrop-filter: blur(1px);
+}

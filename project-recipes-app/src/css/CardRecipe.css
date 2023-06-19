@@ -1,0 +1,37 @@
+.card {
+  background: rgb(255, 252, 245);
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(75, 2, 2, 0.5) , 0 0 20px rgba(105, 9, 9, 0.4);
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 45px;
+  padding: 15px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 185px;
+}
+
+.card:hover {
+  border: 2px solid rgba(139, 0, 0, 0.5);
+  box-shadow: 2px 0 15px rgba(175, 14, 14, 0.3) , 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-tape {
+  filter: contrast(250%) drop-shadow(1px 1px 1px rgb(247, 203, 137));
+  left: 38px;
+  position: absolute;
+  top: -50px;
+  transform: rotate(142deg);
+  width: 110px;
+  z-index: 2;
+}
+
+.card-img {
+  border-radius: 0;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}

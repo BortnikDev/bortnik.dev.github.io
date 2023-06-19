@@ -1,0 +1,45 @@
+.recipes__page {
+  background-image: url('../css/images/backgroundRecipes.jpg');
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(255, 252, 245);
+  border: 1px solid rgba(124, 9, 9, 0.4);
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(122, 14, 14);
+  color: #a00;
+  font-size: 18px;
+  padding: 5px;
+}
+
+
+.category-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.category_button {
+  margin: 3px;
+  min-width: 90px;
+  padding: 5px 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 15px 15px 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding-bottom: 35px;
+  padding-top: 20px;
+}
+
+.recipe-link {
+  color: inherit;
+  text-decoration: none;
+}
