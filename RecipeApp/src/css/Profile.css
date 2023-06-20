@@ -1,0 +1,46 @@
+.profile__page {
+  align-items: center;
+  background-image: url('../css/images/background3.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.profile__page h1:nth-child( 1 ) {
+  backdrop-filter: blur(2px);
+}
+
+.user-info {
+  align-items: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(248, 248, 248, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(121, 121, 121, 0.4) , 0 20px 40px rgba(129, 129, 129, 0.4);
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-between;
+  max-width: 380px;
+  padding: 20px 10px 40px;
+}
+
+.profile-subtitle {
+  color: #4b0000;
+  float: right;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.profile-email {
+  color: darkred;
+  font-size: 19px;
+}
+
+.profile-btns {
+  margin-top: 40px;
+}
+
+.profile-btns button {
+  margin: 0 3px;
+}
